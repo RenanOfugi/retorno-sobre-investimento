@@ -33,31 +33,66 @@
         android:layout_marginTop="@dimen/space_for_textfield"
         android:orientation="vertical">
 
-        <EditText
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/ganho"
-            android:inputType="text" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/espacamento"
-            android:hint="@string/investimento" />
+            <EditText
+                android:id="@+id/ganho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ganho"
+                android:inputType="number" />
 
-        <EditText
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacamento">
+
+            <EditText
+                android:id="@+id/investimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/investimento"
+                android:inputType="number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacamento">
+
+            <EditText
+                android:id="@+id/juros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/taxa_juros"
+                android:inputType="number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
             android:layout_marginTop="@dimen/espacamento"
-            android:hint="@string/taxa_juros"/>
+            android:text="@string/valor"
+            android:textSize="@dimen/valor" />
 
         <Button
+            android:id="@+id/calculo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/espacamento_botao"
-            android:text="@string/button_roi_simples" />
-
+            android:background="@color/button"
+            android:elevation="@dimen/elevation"
+            android:text="@string/button_roi_simples"
+            android:textColor="#ffffff"
+            android:onClick="recebeValoresROI"/>
     </LinearLayout>
 
 
