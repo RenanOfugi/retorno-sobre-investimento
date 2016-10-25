@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="space_for_textfield">50dp</dimen>
+    <dimen name="espacamento">40dp</dimen>
+    <dimen name="espacamento_botao">70dp</dimen>
+</resources>

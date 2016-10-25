@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Retorno sobre Investimento</string>
+    <string name="roi_simples">Calculo de ROI simples</string>
+    <string name="ganho">Ganho obtido</string>
+    <string name="investimento">Investimento Inicial</string>
+    <string name="button_roi_simples">calcular</string>
+    <string name="taxa_juros">taxa de juros</string>
+    
+</resources>
