@@ -60,21 +60,9 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/espacamento">
-
-            <EditText
-                android:id="@+id/juros"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/taxa_juros"
-                android:inputType="number"/>
-
-        </android.support.design.widget.TextInputLayout>
 
         <TextView
+            android:id="@+id/roi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -92,7 +80,7 @@
             android:elevation="@dimen/elevation"
             android:text="@string/button_roi_simples"
             android:textColor="#ffffff"
-            android:onClick="recebeValoresROI"/>
+            android:onClick="atualizaValoresROI"/>
     </LinearLayout>
 
 

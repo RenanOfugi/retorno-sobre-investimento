@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="space_for_textfield">35dp</dimen>
-    <dimen name="espacamento">30dp</dimen>
+    <dimen name="espacamento">40dp</dimen>
     <dimen name="espacamento_botao">43dp</dimen>
     <dimen name="elevation">5dp</dimen>
     <dimen name="valor">30sp</dimen>
